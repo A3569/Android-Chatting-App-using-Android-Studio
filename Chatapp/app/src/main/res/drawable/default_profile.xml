@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Background circle - Light gray circular background -->
+    <path
+        android:fillColor="#DEE3E7"
+        android:pathData="M60,60 m-60,0 a60,60 0 1,0 120,0 a60,60 0 1,0 -120,0" />
+    
+    <!-- User figure - Generic user silhouette drawn in white -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,60 m-20,0 a20,20 0 1,0 40,0 a20,20 0 1,0 -40,0 M60,110 C42,110 30,99 30,82 C30,72 50,66 60,66 C70,66 90,72 90,82 C90,99 78,110 60,110 z" />
+</vector> 

@@ -1,0 +1,35 @@
+<resources>
+    <!-- Core application strings -->
+    <string name="app_name">Chatapp</string>
+    
+    <!-- Firebase Cloud Messaging notification channel ID for chat messages -->
+    <string name="default_notification_channel_id">chat_notifications</string>
+    
+    <!-- Settings screen strings -->
+    <string name="delete_account_title">Delete Account</string>
+    <string name="delete_account_message">Are you sure you want to delete your account? This action cannot be undone and all your data will be permanently lost.</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- Main Activity strings - Used in the main chat list screen -->
+    <string name="no_chats_to_search">No chats to search</string>
+    <string name="no_matching_chats">No matching chats found</string>
+    <string name="search_chats_hint">Search chats...</string>
+    <string name="no_chats_yet">No chats yet. Start a new chat!</string>
+    
+    <!-- New Chat Activity strings - Used when creating a new conversation -->
+    <string name="select_contact">Select Contact</string>
+    <string name="find_contacts_from_device">Find contacts from your device</string>
+    <string name="search_users_hint">Search users</string>
+    <string name="no_users_found">No users found</string>
+    
+    <!-- Status options array - Used in settings/profile screens -->
+    <string-array name="status_options">
+        <item>Online</item>
+        <item>Offline</item>
+        <item>Hide</item>
+    </string-array>
+
+    <!-- Firebase App Check Debug Token - Used during development for app verification -->
+    <string name="firebase_app_check_debug_token">D79A5FCFC55A4D04985AB60D30ECEB74</string>
+</resources>

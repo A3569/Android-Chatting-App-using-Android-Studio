@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    
+    <!-- Light gray background color that works well in both light and dark themes -->
+    <solid android:color="#F5F5F5" />
+    
+    <!-- Fully rounded corners for a pill-like appearance -->
+    <corners android:radius="24dp" />
+    
+    <!-- Internal padding between text and the edge of the background -->
+    <padding
+        android:bottom="8dp"
+        android:left="16dp"
+        android:right="16dp"
+        android:top="8dp" />
+</shape> 
